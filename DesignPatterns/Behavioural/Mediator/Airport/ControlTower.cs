@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns;
+﻿namespace DesignPatterns.Behavioural.Mediator.Airport;
 
 public class ControlTower : IMediator
 {
