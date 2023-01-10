@@ -17,11 +17,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Behavioural" />
-      <Folder Include="Structural" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj" />
     </ItemGroup>
 
