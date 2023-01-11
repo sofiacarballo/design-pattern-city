@@ -16,6 +16,12 @@ public class Observer : ExampleRunner
         youtubeChannel.Attach(sofiasAccount);
 
         var video = new Video("You won't believe THIS about the OBSERVER PATTERN!");
+        
         youtubeChannel.PublishVideo(video);
+        youtubeChannel.Detach(sofiasAccount);
+
+        var video2 = new Video("Is the Singleton pattern DEAD?!");
+        youtubeChannel.PublishVideo(video2);
+
     }
 }
