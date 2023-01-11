@@ -11,4 +11,8 @@
       <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="DesignPatternSandboxes" />
+    </ItemGroup>
+
 </Project>
