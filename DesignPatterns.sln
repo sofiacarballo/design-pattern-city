@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{F6BC6FE2-F4A3-4F8E-9961-303EC56F6EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F3AD7D6F-A1F5-467F-94F8-F9610CDF48B4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{803553FF-A69E-437D-926C-00A7958D8514}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{9360D162-A773-4C5B-9942-7B577794A6A3}"
@@ -18,10 +16,6 @@ Global
 		{F6BC6FE2-F4A3-4F8E-9961-303EC56F6EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6BC6FE2-F4A3-4F8E-9961-303EC56F6EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6BC6FE2-F4A3-4F8E-9961-303EC56F6EFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3AD7D6F-A1F5-467F-94F8-F9610CDF48B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3AD7D6F-A1F5-467F-94F8-F9610CDF48B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3AD7D6F-A1F5-467F-94F8-F9610CDF48B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3AD7D6F-A1F5-467F-94F8-F9610CDF48B4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{803553FF-A69E-437D-926C-00A7958D8514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{803553FF-A69E-437D-926C-00A7958D8514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{803553FF-A69E-437D-926C-00A7958D8514}.Release|Any CPU.ActiveCfg = Release|Any CPU
