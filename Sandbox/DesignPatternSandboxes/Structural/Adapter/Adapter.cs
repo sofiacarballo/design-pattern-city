@@ -10,6 +10,6 @@ public class Adapter : ExampleRunner
         var englishWordGenerator = new EnglishWordGenerator();
         var spanishWordGenerator = new EnglishToSpanishAdapter(englishWordGenerator);
 
-        Console.WriteLine(spanishWordGenerator.GenerateSpanishWord());
+        Console.WriteLine(spanishWordGenerator.GenerateSpanishWord().StringFromEnum());
     }
 }

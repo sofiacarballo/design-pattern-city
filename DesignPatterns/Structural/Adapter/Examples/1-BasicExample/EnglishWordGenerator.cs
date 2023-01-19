@@ -2,23 +2,23 @@ namespace DesignPatterns.Structural.Adapter.Examples._1_BasicExample;
 
 public class EnglishWordGenerator
 {
-    private List<string> Words;
+    private readonly List<EnglishWord> _words;
 
     public EnglishWordGenerator()
     {
-        Words = new List<string>()
+        _words = new List<EnglishWord>()
         {
-            "Dog",
-            "Cat",
-            "Person",
-            "House",
-            "Computer"
+            EnglishWord.Dog,
+            EnglishWord.Cat,
+            EnglishWord.Person,
+            EnglishWord.House,
+            EnglishWord.Computer
         };
     }
 
-    public string GenerateWord()
+    public EnglishWord GenerateWord()
     {
-        var randomIndex = new Random().Next(Words.Count);
-        return Words[randomIndex];
+        var randomIndex = new Random().Next(_words.Count);
+        return _words[randomIndex];
     }
 }

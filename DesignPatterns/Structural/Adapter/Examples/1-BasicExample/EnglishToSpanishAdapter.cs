@@ -9,16 +9,16 @@ public class EnglishToSpanishAdapter : ISpanishWordGenerator
         _englishWordGenerator = englishWordGenerator;
     }
 
-    public string GenerateSpanishWord()
+    public SpanishWord GenerateSpanishWord()
     {
         var englishWord = _englishWordGenerator.GenerateWord();
         return englishWord switch
         {
-            "Dog" => "Perro",
-            "Cat" => "Gato",
-            "Person" => "Persona",
-            "House" => "Casa",
-            "Computer" => "Ordenador",
+            EnglishWord.Dog => SpanishWord.Perro,
+            EnglishWord.Cat => SpanishWord.Gato,
+            EnglishWord.Person => SpanishWord.Persona,
+            EnglishWord.House => SpanishWord.Casa,
+            EnglishWord.Computer => SpanishWord.Ordenador,
             _ => throw new Exception("There's no translation for the given word!")
         };
     }
