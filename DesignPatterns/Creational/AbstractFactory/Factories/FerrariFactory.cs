@@ -7,11 +7,11 @@ public class FerrariFactory : ICarFactory
 {
     public IHybrid CreateHybrid()
     {
-        return new CoolRed();
+        return new Roma();
     }
 
     public IElectric CreateElectric()
     {
-        return new BoringGreen();
+        return new MonzaSP2();
     }
 }

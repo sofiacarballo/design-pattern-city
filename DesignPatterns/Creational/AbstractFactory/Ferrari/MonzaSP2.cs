@@ -2,10 +2,10 @@
 
 namespace DesignPatterns.Creational.AbstractFactory.Ferrari;
 
-public class BoringGreen : IElectric
+public class MonzaSP2 : IElectric
 {
     public string GetName()
     {
-        return "I am a boring green Ferrari car";
+        return "I am a MonzaSP2 Ferrari car";
     }
 }

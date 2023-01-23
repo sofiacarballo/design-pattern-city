@@ -1,4 +1,3 @@
-using DesignPatterns.Creational.AbstractFactory;
 using DesignPatterns.Creational.AbstractFactory.Abstractions;
 using DesignPatterns.Creational.AbstractFactory.Factories;
 

@@ -7,11 +7,11 @@ public class TeslaFactory : ICarFactory
 {
     public IHybrid CreateHybrid()
     {
-        return new TeslaCarOne();
+        return new ModelY();
     }
 
     public IElectric CreateElectric()
     {
-        return new TeslaCarTwo();
+        return new ModelS();
     }
 }

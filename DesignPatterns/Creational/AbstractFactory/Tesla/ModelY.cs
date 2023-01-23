@@ -2,10 +2,10 @@
 
 namespace DesignPatterns.Creational.AbstractFactory.Tesla;
 
-public class TeslaCarTwo : IElectric
+public class ModelY : IHybrid
 {
     public string GetName()
     {
-        return "I am an electric Tesla Car Two";
+        return "I am a Hybrid Tesla Model Y car";
     }
 }

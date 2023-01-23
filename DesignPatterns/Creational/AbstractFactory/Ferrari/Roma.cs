@@ -2,10 +2,10 @@
 
 namespace DesignPatterns.Creational.AbstractFactory.Ferrari;
 
-public class CoolRed : IHybrid
+public class Roma : IHybrid
 {
     public string GetName()
     {
-        return "I am super cool red and hybrid Ferrari car";
+        return "I am super cool Roma Ferrari car";
 ;    }
 }
