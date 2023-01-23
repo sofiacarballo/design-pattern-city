@@ -1,5 +1,0 @@
-﻿- At the end refactor 
-- Improve examples
-- Create demonstrations using unitTests
-- Compare Strategy vs Builder vs Factory
-- Design Patterns City
