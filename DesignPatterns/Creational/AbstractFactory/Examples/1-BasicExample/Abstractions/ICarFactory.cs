@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.AbstractFactory.Abstractions;
+﻿namespace DesignPatterns.Creational.AbstractFactory.Examples._1_BasicExample.Abstractions;
 
 public interface ICarFactory
 {

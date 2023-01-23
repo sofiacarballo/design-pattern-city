@@ -1,5 +1,5 @@
-using DesignPatterns.Creational.AbstractFactory.Abstractions;
-using DesignPatterns.Creational.AbstractFactory.Factories;
+using DesignPatterns.Creational.AbstractFactory.Examples._1_BasicExample.Abstractions;
+using DesignPatterns.Creational.AbstractFactory.Examples._1_BasicExample.Factories;
 
 namespace Tests.Creational.AbstractFactory;
 
