@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Creational.AbstractFactory.PatternComponents;
 
-public class Object : IObject
+public class ConcreteProduct : IAbstractProduct
 {
     public string GetName()
     {
