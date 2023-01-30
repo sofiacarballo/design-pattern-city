@@ -11,6 +11,6 @@ public class SlackDecorator : BaseDecorator
         // before open a connection to slack
         var slackMessage = _wrappee.Send(message);
         // after we send the message to the connection to slack
-        return $"Slack decorator: {slackMessage}";
+        return $"Slack decorator -> {slackMessage}";
     }
 }

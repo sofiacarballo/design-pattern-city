@@ -9,6 +9,6 @@ public class FacebookDecorator : BaseDecorator
     public override string Send(string message)
     {
         var facebookMessage = _wrappee.Send(message);
-        return $"Facebook decorator: {facebookMessage}";
+        return $"Facebook decorator -> {facebookMessage}";
     }
 }

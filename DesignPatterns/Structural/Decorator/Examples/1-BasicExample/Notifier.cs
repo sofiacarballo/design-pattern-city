@@ -4,6 +4,6 @@ public class Notifier : INotifier
 {
     public string Send(string message)
     {
-        return $"Notifier: {message}";
+        return $"You got a new notification: {message}";
     } 
 }
