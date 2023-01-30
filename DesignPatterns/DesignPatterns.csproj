@@ -8,7 +8,6 @@
 
     <ItemGroup>
       <Folder Include="Creational\AbstractFactory\Examples\1-BasicExample" />
-      <Folder Include="Structural\Decorator\PatternComponents" />
     </ItemGroup>
 
 </Project>
