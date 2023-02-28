@@ -1,4 +1,4 @@
-namespace DesignPatterns.Behavioural.Command.RestaurantExample.Entities;
+namespace DesignPatterns.Behavioural.Command.Examples._1_BasicExample.Entities;
 
 public class OrderItem
 {

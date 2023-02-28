@@ -1,6 +1,6 @@
-using DesignPatterns.Behavioural.Command.RestaurantExample.Entities;
+using DesignPatterns.Behavioural.Command.Examples._1_BasicExample.Entities;
 
-namespace DesignPatterns.Behavioural.Command.RestaurantExample;
+namespace DesignPatterns.Behavioural.Command.Examples._1_BasicExample;
 
 // This would be the Receiver.
 public class Kitchen

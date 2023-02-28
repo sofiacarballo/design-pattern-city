@@ -1,4 +1,4 @@
-namespace DesignPatterns.Behavioural.Command.RestaurantExample;
+namespace DesignPatterns.Behavioural.Command.Examples._1_BasicExample;
 
 public class Customer : IClient
 {

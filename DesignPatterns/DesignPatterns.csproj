@@ -7,7 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Folder Include="Behavioural\Command\Examples" />
       <Folder Include="Creational\AbstractFactory\Examples\1-BasicExample" />
+      <Folder Include="Creational\Prototype\PatternComponents" />
     </ItemGroup>
 
 </Project>
